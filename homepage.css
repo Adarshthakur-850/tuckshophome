@@ -1,0 +1,359 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+}
+/*---------------bar---------------*/
+
+.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color:#fff;
+    padding: 0 100px;
+    line-height: 80px;
+}
+.cont{ 
+
+    height: 80px;
+    width: 100%;
+    background: brown;
+   
+}
+.navlist ul{
+    float: right;
+    margin-right: 40px;
+}
+.navlist li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+.navlist a{
+    color: #fff;
+    font-size: 18;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    border:1px solid #fff;
+}
+#MenuBtns{
+    color: #fff;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor:pointer;
+    display: none;
+}
+.nav-flex{
+    display: flex;
+    justify-content: space-around;
+}
+/*------------container----------------*/
+.container{
+    max-width:1300px;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.col-2{
+    text-align: center;
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.navlist{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col-2-h1{
+
+    font-size: 60px;
+    line-height: 60px;
+    margin:25px 0;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition:  0.5s;
+}
+.btn:hover{
+    background: orange;
+}
+.features {
+    padding: 65px 60px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*------------box1--------------*/
+.box1 {
+    width: 180px;
+    padding: 25px 15px;
+    text-align: center;
+    box-shadow: 0px 0px 6px rgba(0 0 0 /24%);
+    border-radius: 3px;
+    border: 1px solid #ccdbe7;
+
+}
+
+.box1 h5 {
+    padding: 13px 10px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: #ddfdfc;
+    border: none;
+    line-height: 1px;
+    color: #088178;
+
+}
+/*-----------img---------------*/
+.box1 img {
+    margin-bottom: 10px;
+    width: 100%;
+}
+.box1:hover{
+    transform: translateY(-5px);
+}
+/*-----------featured-prod---------------*/
+.featured-prod {
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    font-weight: 600;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 80px;
+    margin-top: 68px;
+    width: 100%;
+
+}
+
+.products h5 {
+    color: #088178;
+    font-size: 18px;
+}
+
+.prod-id {
+    box-shadow: 0px 0px 6px rgba(0 0 0 /24%);
+    padding: 12px 18px;
+    border-radius: 32px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    border: 1px solid #cce7d0;
+    width: 23%;
+    min-width: 250px;
+    position: relative;
+}
+
+.prod-id:hover {
+    transform: translateY(-5px);
+}
+
+.prod-id:hover {
+    color: #088178;
+}
+
+.products h6 {
+    margin: 9px 0px;
+    font-size: 14px;
+
+}
+
+.prod-id p {
+    margin: 5px 0px 10px;
+    color: #606063;
+}
+
+.prod-id img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.stars {
+    margin-bottom: 10px;
+}
+
+.fa-star {
+    color: #f4d454;
+}
+
+.carts {
+    color: #088178;
+    background-color: #eaf6ea;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    border-radius: 50px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    border: 1px solid #cce7d0;
+}
+
+.products .cart-but i {
+    line-height: 50px;
+}
+/*------------text-------------*/
+.text {
+    text-align: start;
+}
+
+
+
+
+/*-----------footers--------------*/
+.footer{
+    background: #000;
+    color:#8a8;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a;
+}
+.footer h3{
+    color:#fff;
+    margin-bottom: 20px;
+    
+}
+.footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4,.footer-col-5{
+    min-width: 250px;
+    margin-bottom: 20px;
+
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+
+}
+.footer-col-2 img{
+    width:8px;
+    margin-bottom: 20px;
+}
+.footer-col-3,.footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width:40px
+} 
+footer hr{
+    border: none;
+    background: #b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+}
+
+/*----------media-------------*/
+@media(max-width:700px){
+    .row{
+        text-align: center;
+    }
+    .col-2,.col-4{
+        flex-basis: 100%;
+    }
+    .container{
+        padding:0;
+        padding-top: 20px;
+    }
+    .container nav{
+        padding: 20px;
+        align-items: center;
+        position: relative;
+    }
+    .navlist{
+        width: 100%;
+        height: fit-content;
+        position: absolute;
+        top: -1000px;
+        left:0;
+        background-color: rgb(25, 25, 25);
+    }
+    .navlist{
+        display: flex;
+        height: fit-content;
+        align-items: center;
+        flex-direction: column;
+        justify-content:center;
+        width: 100%;
+        padding:35px 0;
+        border-bottom:  1px solid rgb(119, 119, 119);
+    }
+    .navlist li{
+        padding-top: 35px;
+    }
+    .navlist li a {
+        font-size: 20px;
+        color: rgb(167, 167, 167);
+    }
+
+    .cont{
+        display: flex;
+    }
+    
+    
+    #MenuBtns{
+        position: absolute;
+        display: block;
+        top: 20px;
+        right: 20px;
+        font-size: 25px;
+        z-index: 2;
+    }
+}
+.img_slider{
+    margin-top: 1px;
+    width: 100%;
+    height: 500px;
+    background-image: url('/images/images6.jpg');
+    background-size: 100% 100%;
+    animation:slider 30s infinite linear;
+}
+@keyframes slider{
+    0%{background-image:  url('/images/image1.jpg');}
+    20%{background-image:  url('./images/image.jpg');}
+    40%{background-image:  url('./images/images2.jpg');}
+    60%{background-image:  url('/images/images3.jpg');}
+    80%{background-image:  url('/images/images4.jpg');}
+    
+}
