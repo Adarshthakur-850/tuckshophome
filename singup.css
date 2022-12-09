@@ -127,7 +127,7 @@ select{
     animation:slider 30s infinite linear;
 }
 @keyframes slider{
-    0%{background-image:  url('/images/image1.jpg');}
+    0%{background-image:  url('./images/image1.jpg');}
     20%{background-image:  url('./images/image.jpg');}
     40%{background-image:  url('./images/images2.jpg');}
     60%{background-image:  url('./images/images3.jpg');}
